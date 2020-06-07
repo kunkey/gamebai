@@ -1,6 +1,25 @@
 
+/**
+ * SMS Controller
+ */
+
+let request = require('request');
+let config  = require('../config/sms');
+
+let sendOTP = function(phone, otp){
+	let form = {
+		  'source': 'Verify',
+		  'destination': phone,
+		  'text': 'Verification Code: ' + otp,
+		  'encoding': 'AUTO',
+	};
+	request.post({
+		url: config.URL,
+		headers: {'Authorization':'Bearer ' + config.Author, 'Content-Type': 'application/json'},
+		json: form,
+	});
+}
+
 module.exports = {
-	'URL':       'https://api.wavecell.com/sms/v1/thickcuk9_2cCDE_hq/single',
-	'Author':    '6PlFs3sAeHs3gdPcqR8PKG3prgbDb0xd5VFZ0r0',
-	'Brandname': 'Bem68',
+	sendOTP: sendOTP,
 }
