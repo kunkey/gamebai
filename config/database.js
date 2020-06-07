@@ -1,10 +1,10 @@
 
 module.exports = {
-	'url': 'mongodb://127.0.0.1:27017',
+	'url': 'mongodb://ds019829.mlab.com:19829',
 	'options': {
-		//'user':   '00',
-		//'pass':   '000',
-		'dbName': 'admin',
+		'user':   'ducnghia',
+		'pass':   'ducnghia27',
+		'dbName': 'heroku_gsm3z3qh',
 		'useNewUrlParser': true,
 		'useUnifiedTopology': true,
 		//'autoIndex':       false,
