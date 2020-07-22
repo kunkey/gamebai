@@ -1,17 +1,19 @@
 
 module.exports = {
 	'extract':      0,                                         // Chiết khẩu 0%
-	//'URL':          '', // URL APIhttps://naptudong.com/chargingws/v2
-	'URL':          '', // URL API
+	'URL':          'https://naptudong.com/chargingws/v2', // URL API https://naptudong.com/chargingws/v2
 
-	'APP_ID':       '000',                              // id app
-    'APP_PASSWORD': '0000',        // pass app
+	'APP_ID':       '1705482951',                              // id app
+    'APP_PASSWORD': '7671947228838c37bde4d8c384ff4a6f',        // pass app
 
     '99': 'Đang nạp...',
     '1': 'Nạp thẻ cào thành công.',
     '2': 'Thẻ cào sai mệnh giá.',
     '3': 'Thẻ nỗi.',
     '4': 'Hệ thống đang bảo trì, giữ lại thẻ và quay lại sau.',
+
+};
+
 
 /**
     '00': 'Nạp thẻ cào thành công.',
@@ -39,4 +41,3 @@ module.exports = {
 	'21': 'Hệ thống đang bảo trì, giữ lại thẻ và quay lại sau.',
 	'22': 'Mệnh giá thẻ không hợp lệ.',
 	*/
-};
