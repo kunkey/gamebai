@@ -1,6 +1,6 @@
-
+// SMS.js trong config. 
 module.exports = {
-	'URL':       'https://api.wavecell.com/sms/v1/thickcuk9_2cCDE_hq/single',
-	'Author':    '6PlFs3sAeHs3gdPcqR8PKG3prgbDb0xd5VFZ0r0',
-	'Brandname': 'Bem68',
+	'Api_Key':       '21C41E159435F24F3BD20E93FE7A37',
+	'Api_Secret':    'A21C9A1170878DDBBE88EB94AB85F6',
+	'Author': 'Kunkeypr', // Kun Đẹp Trai 
 }
