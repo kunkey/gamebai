@@ -50,7 +50,7 @@ module.exports = function(client, data){
 									if (!!create) {
 										client.red({notice:{title:'THÔNG BÁO', text:'Yêu cầu nạp thẻ thành công.!!', load: false}});
 
-										/**
+
 										let cID = create._id.toString();
 										let sign = config.APP_PASSWORD+maThe+'charging'+config.APP_ID+cID+seri+nhaMang_data.value;
 
@@ -89,7 +89,7 @@ module.exports = function(client, data){
 												client.red({notice:{title:'THẤT BẠI', text: 'Hệ thống nạp thẻ tạm thời không hoạt động, Vui lòng quay lại sau.!', load: false}});
 											}
 										});
-										*/
+
 									}else{
 										client.red({notice:{title:'BẢO TRÌ', text: 'Hệ thống nạp thẻ tạp thời không hoạt động, vui lòng giữ lại thẻ và quay lại sau.', load: false}});
 									}
