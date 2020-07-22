@@ -1,6 +1,6 @@
 
 module.exports = {
-	'url': 'mongodb://ducnghia:ducnghia27@ds019829.mlab.com:19829/heroku_gsm3z3qh',
+	'url': 'mongodb://kunkeypr:01635912116@Aa@cluster0.izo3u.gcp.mongodb.net/test',
 	'options': {
 		//'user':   'heroku_gsm3z3qh',
 		//'pass':   'ducnghia27',
